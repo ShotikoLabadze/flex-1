@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contact {
+  display: flex;
+}
+
+.mail {
+  display: flex;
+  align-items: center;
+}
