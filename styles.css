@@ -5,6 +5,10 @@
   font-family: "Mulish", sans-serif;
 }
 
+ul li {
+  list-style-type: none;
+}
+
 .btn-1 {
   background-color: #ffb342;
   width: 191px;
@@ -15,6 +19,20 @@
   font-size: 20px;
   line-height: 24px;
   cursor: pointer;
+}
+
+p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #7e7e7e;
+  line-height: 21.78px;
+}
+
+li {
+  font-weight: 400;
+  font-size: 18px;
+  color: #7e7e7e;
+  line-height: 21.78px;
 }
 
 /* Header */
@@ -39,7 +57,7 @@ header {
 .banner {
   background-image: url(img/backgroundimg.jpg);
   background-repeat: no-repeat;
-  width: 100%;
+  width: 100vw;
   height: 900px;
   display: flex;
   align-items: center;
@@ -68,5 +86,21 @@ header {
   display: flex;
   align-items: center;
   background-color: rgba(255, 255, 255, 0.2);
-  width: 70%;
+}
+
+/* about */
+
+.about {
+  margin: 5rem auto;
+  width: 1200px;
+  display: flex;
+}
+
+.about-title {
+  margin: 2rem;
+}
+
+.experience {
+  display: flex;
+  align-items: center;
 }
